@@ -5,4 +5,4 @@ session_start();
 
 $_SESSION['test'] = $_POST['setSession'];
 
-echo true;
+echo json_encode(['act' => true, 'msg' => 'the sission is saved']);
